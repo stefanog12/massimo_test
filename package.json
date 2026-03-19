@@ -1,0 +1,43 @@
+{
+  "name": "twilio-openai-realtime",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Server Fastify + WebSocket per Twilio e OpenAI Realtime API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "twilio",
+    "openai",
+    "fastify",
+    "websocket",
+    "realtime",
+    "gpt-4o"
+  ],
+  "author": "IlTuoNome",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/formbody": "^8.0.0",
+    "@fastify/websocket": "^11.0.0",
+    "data-uri-to-buffer": "^4.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "fastify": "^5.0.0",
+    "fetch-blob": "^3.2.0",
+    "formdata-polyfill": "^4.0.10",
+    "googleapis": "^170.0.0",
+    "node-domexception": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.9.1",
+    "web-streams-polyfill": "^3.3.3",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
