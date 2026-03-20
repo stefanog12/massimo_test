@@ -172,7 +172,7 @@ fastify.get('/', async (req, reply) => {
     const isAuth = await googleClient.isAuthenticated();
     const isProduction = process.env.NODE_ENV === 'production';
     const baseUrl = isProduction 
-        ? 'https://dfm-production-36a5.up.railway.app'
+        ? 'https://massimotest-production.up.railway.app'
         : 'http://localhost:3000';
     
     reply.send({ 
