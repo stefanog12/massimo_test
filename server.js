@@ -37,7 +37,7 @@ fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
 const VOICE = 'alloy';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 
 // Crea un buffer di silenzio (500ms a 24kHz mono, 16-bit PCM)
